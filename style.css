@@ -1,10 +1,12 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06A3DA;
-    --secondary: #34AD54;
-    --light: #EEF9FF;
-    --dark: #091E3E;
+    --primary: #007BFF;  /* Intensywny odcień niebieskiego */
+    --secondary: #28A745;  /* Zielony odcień */
+    --light: #59718a;  /* Jasny niebieski dla tła */
+    --dark: #1D2C4D;  /* Ciemniejszy niebieski */
 }
+
+
 
 
 /*** Spinner ***/
@@ -277,7 +279,7 @@ h6,
     width: 6px;
     height: 5px;
     bottom: 0px;
-    background: #ff0000;
+    background: #FFFFFF;
     -webkit-animation: section-title-run 5s infinite linear;
     animation: section-title-run 5s infinite linear;
 }
