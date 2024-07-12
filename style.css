@@ -158,14 +158,18 @@ h6,
 }
 
 @media (max-width: 991.98px) {
-    .sticky-top.navbar-dark {
-        position: relative;
+    .navbar-dark.sticky-top {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
         background: #FFFFFF;
+        z-index: 999;
     }
 
     .navbar-dark .navbar-nav .nav-link,
     .navbar-dark .navbar-nav .nav-link.show,
-    .sticky-top.navbar-dark .navbar-nav .nav-link {
+    .navbar-dark.sticky-top .navbar-nav .nav-link {
         padding: 10px 0;
         color: var(--dark);
     }
@@ -185,7 +189,7 @@ h6,
         z-index: 999;
     }
     
-    .sticky-top.navbar-dark {
+    .navbar-dark.sticky-top {
         position: fixed;
         background: #FFFFFF;
     }
@@ -211,10 +215,11 @@ h6,
         display: none;
     }
 
-    .sticky-top.navbar-dark .navbar-brand h1 {
+    .navbar-dark.sticky-top .navbar-brand h1 {
         color: var(--primary);
     }
 }
+
 
 
 /*** Carousel ***/
