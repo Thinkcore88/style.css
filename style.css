@@ -201,7 +201,7 @@ h6,
         height: 2px;
         bottom: -1px;
         left: 50%;
-        background: var(--primary);
+    background: red !important; /* Samo tło na czerwono z !important */
         transition: .5s;
     }
 
